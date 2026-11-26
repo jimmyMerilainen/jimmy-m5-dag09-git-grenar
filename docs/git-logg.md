@@ -66,7 +66,10 @@ git revert är säkrast
 ## 5. Pull request
 
 Länk till din pull request (på ditt eget repo):
+https://github.com/jimmyMerilainen/jimmy-m5-dag09-git-grenar/pull/1
 
 ## 6. Reflektion
 
 Vad är det värsta som kan hända om man kör `git push --force` på en gren som andra använder?
+
+man kan skriva över andras commits och därmed radera deras ändringar från den gemensamma Git-historiken. Det kan leda till förlorat arbete och konflikter för resten av teamet
