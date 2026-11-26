@@ -18,10 +18,20 @@ Skriv ut `git log --oneline --graph --all` direkt efter att du klonat. Klistra i
 Klistra in `git log --oneline --graph --all` efter merge:
 
 ```
-(klistra in)
+*   3347f9b (HEAD -> main) Merge branch 'meny-nyheter'
+|\
+| * f13fa03 (meny-nyheter) Steg2: Lägg till kanelbulle på menyn
+* | d3475c1 Steg3: Lägg till telefonnummer
+|/
+* feebc2f Steg1: dokumentera Git-logg
+* 5a5841d (origin/main, origin/HEAD) Modul 5 i TypeScript med Vite
+* 3804533 Add files via upload
+* f7a13a4 Add files via upload
+* c9a0075 Initial commit
 ```
 
 Fråga: Vad är skillnaden mellan en _fast-forward_-merge och en merge som skapar en egen merge-commit? Svara med egna ord:
+fast-forward-merge flyttar bara huvudgrenens pekare framåt eftersom det inte finns några nya ändringar i den grenen. En vanlig merge skapar en extra merge-commit som sammanför ändringar från två olika grenar
 
 ## 3. Konflikten
 
