@@ -1,5 +1,7 @@
 # Öppettider
 
-Vardagar: 07–18
-Helger: 09–16
-Röda dagar: stängt
+Vardagar: Stängt
+Helger: Stängt
+Röda dagar: Stängt
+
+Stängt pga kylan. Har flyttat till Barcelona.
