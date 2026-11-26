@@ -38,12 +38,20 @@ fast-forward-merge flyttar bara huvudgrenens pekare framåt eftersom det inte fi
 Klistra in filen med konfliktmarkörerna, precis som den såg ut innan du löste den:
 
 ```
-(klistra in)
+Vardagar: 07–18
+<<<<<<< HEAD
+Helger: 10–17
+=======
+Helger: 09–18
+>>>>>>> oppettider-sommar
+Röda dagar: stängt
 ```
 
 Fråga: Vad betyder `<<<<<<< HEAD`, `=======` och `>>>>>>> grennamn`?
+Det är markeringar som Git lägger till vid en merge-konflikt. De visar vilka delar av koden som skiljer sig mellan två grenar
 
 Hur löste du den, och varför blev det så?
+Jag jämföra båda versionerna och valde att skriv en ny. Det blev så eftersom båda grenarna hade ändrat samma del av filen.
 
 ## 4. Ångra
 
