@@ -57,6 +57,12 @@ Jag jämföra båda versionerna och valde att skriv en ny. Det blev så eftersom
 
 Vad är skillnaden mellan `git restore`, `git revert` och `git reset`? Vilken är säkrast när ändringen redan är pushad?
 
+git restore: återställer filer och tar bort ändringar som inte är committade
+git revert: skapar en ny commit som ångrar en tidigare commit
+git reset: flyttar tillbaka HEAD till en tidigare commit och kan ta bort commits från historiken
+
+git revert är säkrast
+
 ## 5. Pull request
 
 Länk till din pull request (på ditt eget repo):
