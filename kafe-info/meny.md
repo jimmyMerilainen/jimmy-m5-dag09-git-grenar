@@ -5,4 +5,3 @@
 - Ostmacka, 59 kr
 - Latte, 45 kr
 - Kanelbulle, 33 kr
-- Resa till Barcelona, 999 kr
